@@ -1,0 +1,121 @@
+/*----------------------------------------------------------------------------------------*/
+/*terminando el header borrando espacios*/
+header{		float: left;
+    		margin: 0 0 30px 0;
+    		padding: 5px 0 0 0;
+    		width: 100%;
+    		background:#52d2fc ;
+    		border-color: yellow;	}
+
+/*finalizando el encabezado*/
+header {	border-bottom: 5px solid #599a68;
+			margin-bottom: 60px;	}
+
+/*modificacion de fuentes*/
+h1,h3 {color:blue;}
+h1 {	font-family: 'Boogaloo';
+		margin: 15px 0;
+		font-size: 1.75em;
+		font-weight: normal;	}
+
+h3 {	font-family: 'Kreon';
+		margin: 15px 0;
+		font-size: 0.825em;
+		font-weight: normal;
+		margin-bottom: 20px;	}
+
+/*diseñando para moviles*/
+#logo {	text-align: center;
+		margin: 0;	}
+
+#logo {	float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;	}
+
+/*----------------------------------------------------------------------------------------*/
+/* navigator*/
+nav {	background-color: green;
+		color: white;	}
+/*color de nav*/
+/*nav a  {	color: #fff; }*/
+
+/*reformateando la navegacion*/
+nav ul {	list-style: none;
+			margin: 0 10px;
+			padding: 0;}
+
+/*muestra los elementos en bloque*/
+nav li {	display: inline-block;	}
+
+/*color para cada clase selected*/
+/*nav a.selected { color: #00dede;}*/
+
+/*efecto de transicion de color al menu*/
+nav a:hover{     color:#ffff00; }
+
+/*ampliando el area de clic*/
+nav a {		font-weight: 800;
+			padding: 25px 40px;	}
+
+/* quita los subrayados azules de los enlaces del menu*/
+a{  text-decoration: none;
+    color: white;}
+
+/*----------------------------------------------------------------------------------------*/
+#wrapper{	max-width: 980px;
+			margin: 0 auto;	
+			padding: 0 5%;
+			background: orange;}
+
+/*imagenes se ajustan al tamaño del contenedor*/
+img {	max-width: 100%; }
+
+/*eliminando viñetas de las listas que contiene las imagenes*/
+#galeria { 	margin: 0;
+			padding: 0;
+			list-style: none;}
+
+/*galeria flotante*/
+#galeria li { 	float:left;
+				width:45%;
+				margin: 2.5%;
+				background-color: orange;/*color de fondo de imagen*/
+				color:white;/*color de texto*/}
+
+/*min-height: jorando el texto de la galeria*/
+#galeria li a p { 	margin: 0;
+					padding: 5%;
+					font-size: 0.75em;
+					color: #bdc3c7;}
+
+/*----------------------------------------------------------------------------------------*/
+/*footer */
+footer{	font-size: 0.75em;
+		text-align: center;
+		clear: both; 
+		padding-top: 50px;
+		color: #ccc;
+		/*color: white;*/
+		background-color: #52d2fc;}
+
+/*ajustando iconos de social media*/
+.social-icon {	width: 30px;
+				height: 30px;
+				margin: 0 5px; }
+
+/* menu para moviles */
+/* basado en dimensiones iphone5 */
+@media (min-width: 320px)and (max-width: 568px)
+{
+    #menu ul{
+        display: none;
+    }
+}
+@media (min-width: 568px)
+{
+    #menu select, #menu button{
+        display: none;
+    }
+}
+
