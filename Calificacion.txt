@@ -1,0 +1,14 @@
+Detalle Calificacion   11.5/27
+Requisitos Funcionales (15 Puntos): (5 por pagina) 5.5 Puntos = (4 + 4 + 2.5) - 5 Puntos porque no uso la estructura de datos requerida.
+Errores Manejados o no tiene en consola (2 Puntos): 1 Punto. Tuvo errores de consola pero no afectan mucho el comportamiento de la pagina. No se validaron los campos en el formulario
+Buen Uso de Funciones, Ciclos y DRY (2 Puntos): 1 Punto. Siendo generoso. No puso codigo JS ejecutable que calificar.
+Buen Uso de Jquery y Galeria (2.5 Puntos): 0 Puntos. No se implemento la galeria ni validaciones de formularion con JQuery.
+Uso de los media Queries (2.5 Puntos): 2 Puntos. Existen los media queries y adaptan el menu.
+Comentarios (1 Punto): 0 Puntos. No puso comentarios buenos y no agrego comentarios extra a los que yo puse a mi codigo en clases.
+Pagina con buena estetica (1 Punto): 1 Punto. 
+Subio bien a github (1 Punto bonus): 1 Punto.
+Total: 
+
+Comentarios Profesor
+Su codigo JS no es llamado desde ningun html.
+Su pagina se ve bien pero no uso la estructura de los datos sugerida, quemo los datos en la pagina. La prueba requeria que se haga carga de contenido mediante JS.
